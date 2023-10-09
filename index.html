@@ -1,0 +1,100 @@
+<!doctype html>
+    <head>
+        <link rel="stylesheet" type="text/css" media="all" href="./css/index.css">
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+        <script type="text/javascript" src="index.js"></script>
+        <title> Homepage </title>
+    </head>
+    <body>
+        <div id="sidebar">
+            <div id="sidebar_container">
+                <div id="user_container" class="icon_container">
+                   <a href="inside/profile.html"><p id="nav_user" class="nav_icon"></p></a>
+                   <p class="nav_text">USER</p>
+                </div>
+    
+                <div id="nav_center">
+                    <div class="icon_container">
+                        <div id="nav_search" class="nav_icon nav_search"></div>
+                        <p class="nav_text">SEARCH</p>
+                    </div>
+
+                    <div id="search-sidebar-container">
+                        <input class="search-bar" type="text" placeholder="Search..." >
+                    </div>
+
+                    <div class="icon_container">
+                        <a href="index.html"><p class="nav_icon" id="nav_home"></p></a>
+                        <p class="nav_text">HOME</p>
+                    </div>
+
+                    <div class="icon_container">
+                        <a href="inside/genre.html"> <p class="nav_icon" id="nav_genre"></p></a>
+                        <p class="nav_text">GENRE</p>
+                    </div>
+    
+                    <div class="icon_container">
+                        <a href="inside/forum.html"><p id="nav_forum" class="nav_icon"></p></a>
+                        <p class="nav_text">FORUM</p>
+                    </div>
+                </div>
+    
+                <div id="create_container" class="icon_container">
+                    <a href="./inside/forum.html"><p id="nav_create" class="nav_icon"></p></a>
+                    <p class="nav_text">CREATE</p>
+                </div>
+            </div> 
+        </div>
+        
+        <div id="home-page-container">
+            <div id="home-header">
+                <span>HOME</span>
+                    
+               <input class="search-bar" type="text" placeholder="Search anything here...">
+           </div>
+           <div id="trending-games" class="home-pages">
+                <p>Trending Games</p>
+                <div class="games">
+                    <a href="inside/valorant.html"><img class="game-logo" src="images/valorant.jpg" /></a>
+                    <a href="inside/counterstrike2.html"><img class="game-logo" src="images/cs2.jpg" /></a>
+                    <a href="inside/pathofexile.html"><img class="game-logo" src="images/pathofexile.jpg" /></a>
+                    <a href="inside/FF16.html"><img class="game-logo" src="images/FF16.jpg" /></a>
+                </div>
+            </div>
+            <div id="latest-games" class="home-pages">
+                <p>Latest Game Patches</p>
+                <div class="games">
+                    <a href="inside/valorant.html"><img class="game-logo" src="images/valorant.jpg" /></a>
+                    <a href="inside/counterstrike2.html"><img class="game-logo" src="images/cs2.jpg" /></a>
+                    <a href="inside/pathofexile.html"><img class="game-logo" src="images/pathofexile.jpg" /></a>
+                    <a href="inside/FF16.html"><img class="game-logo" src="images/FF16.jpg" /></a>
+                </div>
+            </div>
+            <div id="latest-post" class="home-pages">
+                <p>Latest Post</p>
+                <div class="post-box">
+                    <div class="post-content">
+                        <a href="./inside/post1.html" class="post-link">[MAJOR SPOILER] Ifrit is...... </a>
+                        <p>So, I was playing the story of FF16 and...</p>
+                    </div>
+                    <div class="post-date">
+                        <span> Posted on</span>
+                        <span> September 30, 2023</span>
+                    </div>
+                </div>
+
+                <div class="post-box">
+                    <div class="post-content">
+                        <a href="./inside/post2.html" class="post-link"> Thoughts on s0m and FNS </a>
+                        <p>Just found out that s0m and FNS left NRG</p>
+                    </div>
+                    <div class="post-date">
+                        <span> Posted on</span>
+                        <span> September 17, 2023</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </body>
+</html>
